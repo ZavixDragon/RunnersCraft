@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.game.zavixdragon.runnerscraft.Main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/GameCodeInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/game_code"
+            android:inputType="textCapCharacters"
+            android:maxLength="5" />
+
+        <Button
+            android:id="@+id/JoinButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/join" />
+
+        <TextView
+            android:id="@+id/InputError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/game_codes_require_5"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+    </LinearLayout>
+</FrameLayout>

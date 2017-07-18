@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Runners Craft</string>
+    <string name="start_game">Start Game</string>
+    <string name="join_game">Join Game</string>
+    <string name="game_code">Game Code</string>
+    <string name="attack_server">Attack Server</string>
+    <string name="update_server">Update Server</string>
+    <string name="join">Join</string>
+    <string name="game_codes_require_5">Game Codes Require 5 Characters</string>
+
+    <string name="title_activity_join">App Start</string>
+    <string name="title_activity_joingame">Join Game</string>
+    <string name="title_activity_game">Game</string>
+    <string name="title_activity_updateserver">Update Server</string>
+</resources>
